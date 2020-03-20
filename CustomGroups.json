@@ -1,0 +1,245 @@
+{
+   "customGroups": [
+      {
+         "resourceKind": "Environment",
+         "membershipDefinition": {"ruleGroups": [{
+            "resourceKind": "ClusterComputeResource",
+            "adapterKind": "VMWARE",
+            "rules": [
+               {
+                  "ruleOperator": "EQUALS",
+                  "ruleValue": 1,
+                  "ruleType": "NumericMetricPropertyRule",
+                  "ruleMetricKey": "Super Metric|sm_d7cbbaa6-07e2-4725-8167-d157dce70631",
+                  "isProperty": false
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "CustomProperty|Most Constrained Resource",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "CPU (Allocation)"
+               }
+            ]
+         }]},
+         "adapterKind": "Container",
+         "autoResolveMembership": true,
+         "name": "Most Constrained by CPU (Allocation)",
+         "started": true,
+         "membershipChangeActionInfo": [{
+            "leaveStringValue": "CPU (Allocation)",
+            "metricPropertyActionDataMetricKey": "CustomProperty|Most Constrained Resource",
+            "enterStringValue": "CPU (Allocation)",
+            "membershipChangeActionType": "MetricPropertyData",
+            "isProperty": true
+         }]
+      },
+      {
+         "resourceKind": "Environment",
+         "membershipDefinition": {"ruleGroups": [{
+            "resourceKind": "ClusterComputeResource",
+            "adapterKind": "VMWARE",
+            "rules": [
+               {
+                  "ruleOperator": "EQUALS",
+                  "ruleValue": 1,
+                  "ruleType": "NumericMetricPropertyRule",
+                  "ruleMetricKey": "Super Metric|sm_0ebae056-3596-460e-a30d-ff90eb18a8b1",
+                  "isProperty": false
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "CustomProperty|Most Constrained Resource",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "Disk Space (Allocation)"
+               }
+            ]
+         }]},
+         "adapterKind": "Container",
+         "autoResolveMembership": true,
+         "name": "Most Constrained by Disk Space (Allocation)",
+         "started": true,
+         "membershipChangeActionInfo": [{
+            "leaveStringValue": "Disk Space (Allocation)",
+            "metricPropertyActionDataMetricKey": "CustomProperty|Most Constrained Resource",
+            "enterStringValue": "Disk Space (Allocation)",
+            "membershipChangeActionType": "MetricPropertyData",
+            "isProperty": true
+         }]
+      },
+      {
+         "resourceKind": "Environment",
+         "membershipDefinition": {"ruleGroups": [{
+            "resourceKind": "ClusterComputeResource",
+            "adapterKind": "VMWARE",
+            "rules": [
+               {
+                  "ruleOperator": "EQUALS",
+                  "ruleValue": 1,
+                  "ruleType": "NumericMetricPropertyRule",
+                  "ruleMetricKey": "Super Metric|sm_ea8698ef-cda4-4a8b-9bb4-197c5e212208",
+                  "isProperty": false
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "CustomProperty|Most Constrained Resource",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "Memory (Demand)"
+               }
+            ]
+         }]},
+         "adapterKind": "Container",
+         "autoResolveMembership": true,
+         "name": "Most Constrained by Memory (Demand)",
+         "started": true,
+         "membershipChangeActionInfo": [{
+            "leaveStringValue": "Memory (Demand)",
+            "metricPropertyActionDataMetricKey": "CustomProperty|Most Constrained Resource",
+            "enterStringValue": "Memory (Demand)",
+            "membershipChangeActionType": "MetricPropertyData",
+            "isProperty": true
+         }]
+      },
+      {
+         "resourceKind": "Environment",
+         "membershipDefinition": {"ruleGroups": [{
+            "resourceKind": "ClusterComputeResource",
+            "adapterKind": "VMWARE",
+            "rules": [
+               {
+                  "ruleOperator": "EQUALS",
+                  "ruleValue": 1,
+                  "ruleType": "NumericMetricPropertyRule",
+                  "ruleMetricKey": "Super Metric|sm_b3928174-07a1-40b7-bf58-3e66e81f6e79",
+                  "isProperty": false
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "CustomProperty|Most Constrained Resource",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "CPU (Demand)"
+               }
+            ]
+         }]},
+         "adapterKind": "Container",
+         "autoResolveMembership": true,
+         "name": "Most Constrained by CPU (Demand)",
+         "started": true,
+         "membershipChangeActionInfo": [{
+            "leaveStringValue": "CPU (Demand)",
+            "metricPropertyActionDataMetricKey": "CustomProperty|Most Constrained Resource",
+            "enterStringValue": "CPU (Demand)",
+            "membershipChangeActionType": "MetricPropertyData",
+            "isProperty": true
+         }]
+      },
+      {
+         "resourceKind": "Environment",
+         "membershipDefinition": {"ruleGroups": [{
+            "resourceKind": "ClusterComputeResource",
+            "adapterKind": "VMWARE",
+            "rules": [
+               {
+                  "ruleOperator": "EQUALS",
+                  "ruleValue": 1,
+                  "ruleType": "NumericMetricPropertyRule",
+                  "ruleMetricKey": "Super Metric|sm_16e39946-db0c-4a3a-b979-90678a248a6f",
+                  "isProperty": false
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "CustomProperty|Most Constrained Resource",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "Memory (Allocation)"
+               }
+            ]
+         }]},
+         "adapterKind": "Container",
+         "autoResolveMembership": true,
+         "name": "Most Constrained by Memory (Allocation)",
+         "started": true,
+         "membershipChangeActionInfo": [{
+            "leaveStringValue": "Memory (Allocation)",
+            "metricPropertyActionDataMetricKey": "CustomProperty|Most Constrained Resource",
+            "enterStringValue": "Memory (Allocation)",
+            "membershipChangeActionType": "MetricPropertyData",
+            "isProperty": true
+         }]
+      },
+      {
+         "resourceKind": "Environment",
+         "membershipDefinition": {"ruleGroups": [{
+            "resourceKind": "ClusterComputeResource",
+            "adapterKind": "VMWARE",
+            "rules": [
+               {
+                  "ruleOperator": "EQUALS",
+                  "ruleValue": 1,
+                  "ruleType": "NumericMetricPropertyRule",
+                  "ruleMetricKey": "Super Metric|sm_016fa6b4-6d63-4f09-ba71-7914ca14b423",
+                  "isProperty": false
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "CustomProperty|Most Constrained Resource",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "Disk Space (Demand)"
+               }
+            ]
+         }]},
+         "adapterKind": "Container",
+         "autoResolveMembership": true,
+         "name": "Most Constrained by Disk Space (Demand)",
+         "started": true,
+         "membershipChangeActionInfo": [{
+            "leaveStringValue": "Disk Space (Demand)",
+            "metricPropertyActionDataMetricKey": "CustomProperty|Most Constrained Resource",
+            "enterStringValue": "Disk Space (Demand)",
+            "membershipChangeActionType": "MetricPropertyData",
+            "isProperty": true
+         }]
+      }
+   ],
+   "customGroupTypes": [{
+      "resourceKind": "Environment",
+      "localization": [
+         {
+            "resourceKindName": "Umgebung",
+            "locale": "de"
+         },
+         {
+            "resourceKindName": "環境",
+            "locale": "zh_TW"
+         },
+         {
+            "resourceKindName": "환경",
+            "locale": "ko"
+         },
+         {
+            "resourceKindName": "環境",
+            "locale": "ja"
+         },
+         {
+            "resourceKindName": "Environment",
+            "locale": "en"
+         },
+         {
+            "resourceKindName": "环境",
+            "locale": "zh_CN"
+         },
+         {
+            "resourceKindName": "Environnement",
+            "locale": "fr"
+         },
+         {
+            "resourceKindName": "Entorno",
+            "locale": "es"
+         }
+      ]
+   }]
+}
