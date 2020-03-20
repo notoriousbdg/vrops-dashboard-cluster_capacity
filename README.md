@@ -9,7 +9,7 @@ Use this [vRealize Operations](https://www.vmware.com/products/vrealize-operatio
 
 ## Installation
 1. Import the super metric at `Administration` / `Configuration` / `Super Metrics` / `Import Super Metric`  
-![Import View](https://raw.githubusercontent.com/notoriousbdg/vrops-dashboard-cluster_capacity/master/Import_Super_Metric.png)
+![Import Super Metric](https://raw.githubusercontent.com/notoriousbdg/vrops-dashboard-cluster_capacity/master/Import_Super_Metric.png)
 2. Click `Browse...` then select the file named [Supermetrics.json](https://raw.githubusercontent.com/notoriousbdg/vrops-dashboard-cluster_capacity/master/Supermetrics.json)
 3. Edit the Policy at `Administration` / `Policies` / `Policy Library`.  The policy should be `vSphere Solution's Default Policy (DATE)` unless a new policy was explicitly created.  
 ![Policy Library](https://raw.githubusercontent.com/notoriousbdg/vrops-dashboard-cluster_capacity/master/Policy_Library.png)
