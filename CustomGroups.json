@@ -180,6 +180,142 @@
                   "ruleOperator": "EQUALS",
                   "ruleValue": 1,
                   "ruleType": "NumericMetricPropertyRule",
+                  "ruleMetricKey": "configuration|dasConfig|activeAdmissionControlPolicy",
+                  "isProperty": false
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "CustomProperty|Admission Control Policy",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "Slot Policy (Powered-on VMs)"
+               }
+            ]
+         }]},
+         "adapterKind": "Container",
+         "autoResolveMembership": true,
+         "name": "Admission Control Policy - Slot Policy (Powered-on VMs)",
+         "started": true,
+         "membershipChangeActionInfo": [{
+            "leaveStringValue": "Slot Policy (Powered-on VMs)",
+            "metricPropertyActionDataMetricKey": "CustomProperty|Admission Control Policy",
+            "enterStringValue": "Slot Policy (Powered-on VMs)",
+            "membershipChangeActionType": "MetricPropertyData",
+            "isProperty": true
+         }]
+      },
+      {
+         "resourceKind": "Environment",
+         "membershipDefinition": {"ruleGroups": [{
+            "resourceKind": "ClusterComputeResource",
+            "adapterKind": "VMWARE",
+            "rules": [
+               {
+                  "ruleOperator": "EQUALS",
+                  "ruleValue": -1,
+                  "ruleType": "NumericMetricPropertyRule",
+                  "ruleMetricKey": "configuration|dasConfig|activeAdmissionControlPolicy",
+                  "isProperty": false
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "CustomProperty|Admission Control Policy",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "Disabled"
+               }
+            ]
+         }]},
+         "adapterKind": "Container",
+         "autoResolveMembership": true,
+         "name": "Admission Control Policy - Disabled",
+         "started": true,
+         "membershipChangeActionInfo": [{
+            "leaveStringValue": "Disabled",
+            "metricPropertyActionDataMetricKey": "CustomProperty|Admission Control Policy",
+            "enterStringValue": "Disabled",
+            "membershipChangeActionType": "MetricPropertyData",
+            "isProperty": true
+         }]
+      },
+      {
+         "resourceKind": "Environment",
+         "membershipDefinition": {"ruleGroups": [{
+            "resourceKind": "ClusterComputeResource",
+            "adapterKind": "VMWARE",
+            "rules": [
+               {
+                  "ruleOperator": "EQUALS",
+                  "ruleValue": 2,
+                  "ruleType": "NumericMetricPropertyRule",
+                  "ruleMetricKey": "configuration|dasConfig|activeAdmissionControlPolicy",
+                  "isProperty": false
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "CustomProperty|Admission Control Policy",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "Dedicated Failover Hosts"
+               }
+            ]
+         }]},
+         "adapterKind": "Container",
+         "autoResolveMembership": true,
+         "name": "Admission Control Policy - Dedicated Failover Hosts",
+         "started": true,
+         "membershipChangeActionInfo": [{
+            "leaveStringValue": "Dedicated Failover Hosts",
+            "metricPropertyActionDataMetricKey": "CustomProperty|Admission Control Policy",
+            "enterStringValue": "Dedicated Failover Hosts",
+            "membershipChangeActionType": "MetricPropertyData",
+            "isProperty": true
+         }]
+      },
+      {
+         "resourceKind": "Environment",
+         "membershipDefinition": {"ruleGroups": [{
+            "resourceKind": "ClusterComputeResource",
+            "adapterKind": "VMWARE",
+            "rules": [
+               {
+                  "ruleOperator": "EQUALS",
+                  "ruleValue": 0,
+                  "ruleType": "NumericMetricPropertyRule",
+                  "ruleMetricKey": "configuration|dasConfig|activeAdmissionControlPolicy",
+                  "isProperty": false
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "CustomProperty|Admission Control Policy",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "Cluster Resource Percentage"
+               }
+            ]
+         }]},
+         "adapterKind": "Container",
+         "autoResolveMembership": true,
+         "name": "Admission Control Policy - Cluster Resource Percentage",
+         "started": true,
+         "membershipChangeActionInfo": [{
+            "leaveStringValue": "Cluster Resource Percentage",
+            "metricPropertyActionDataMetricKey": "CustomProperty|Admission Control Policy",
+            "enterStringValue": "Cluster Resource Percentage",
+            "membershipChangeActionType": "MetricPropertyData",
+            "isProperty": true
+         }]
+      },
+      {
+         "resourceKind": "Environment",
+         "membershipDefinition": {"ruleGroups": [{
+            "resourceKind": "ClusterComputeResource",
+            "adapterKind": "VMWARE",
+            "rules": [
+               {
+                  "ruleOperator": "EQUALS",
+                  "ruleValue": 1,
+                  "ruleType": "NumericMetricPropertyRule",
                   "ruleMetricKey": "Super Metric|sm_016fa6b4-6d63-4f09-ba71-7914ca14b423",
                   "isProperty": false
                },

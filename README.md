@@ -1,5 +1,5 @@
 
-# Cluster Capacity Dashboard for vRealize Operations 8.0
+# Cluster Capacity Dashboard for vRealize Operations 8.0 and 8.1
 ---------
 
 Use this [vRealize Operations](https://www.vmware.com/products/vrealize-operations.html) dashboard to expore cluster capacity ranked by Time Remaining, Capacity Remaining, VMs Remaining, and Most Constrained Resource.  Select a cluster to see Total Capacity, Usable Capacity, Usage, and Demand for CPU, Memory and Disk Space in the selected cluster.
@@ -29,6 +29,6 @@ Use this [vRealize Operations](https://www.vmware.com/products/vrealize-operatio
 
 ## Support
 
-This dashboard requires vRealize Operation 8.0 Advanced or Enterprise edition.
+This dashboard requires vRealize Operation 8.0 or 8.1 Advanced or Enterprise edition.
 
 Please open an [issue](https://github.com/notoriousbdg/vrops-dashboard-cluster_capacity/issues) for feedback.
