@@ -83,3 +83,17 @@ Use this [vRealize Operations](https://www.vmware.com/products/vrealize-operatio
 This dashboard requires vRealize Operation 8.0 or 8.1 Advanced or Enterprise edition.
 
 Please open an [issue](https://github.com/notoriousbdg/vrops-dashboard-cluster_capacity/issues) for feedback.
+
+## Changelog
+2020-03-20
+* Initial release
+
+2020-04-28
+* Added readme to dashboard with diagrams
+* Added Admission Control details
+* Added Capacity Buffer settings
+* Added Time Remaining widget
+* Added Allocation Model section
+
+2020-04-29
+* Added missing Time Remaining views
