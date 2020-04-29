@@ -69,14 +69,14 @@ Use this [vRealize Operations](https://www.vmware.com/products/vrealize-operatio
 | Admission Control Policy - Slot Policy (Powered-on VMs) | Environment |
 
 ## Super Metrics
-| Object Type | Super Metric Name |
+| Super Metric Name | Object Type |
 |--|--|
-| Cluster Compute Resource | Most Constrained by CPU Demand |
-| Cluster Compute Resource | Most Constrained by Memory Demand |
-| Cluster Compute Resource | Most Constrained by Disk Space Demand |
-| Cluster Compute Resource | Most Constrained by CPU Allocation |
-| Cluster Compute Resource | Most Constrained by Memory Allocation |
-| Cluster Compute Resource | Most Constrained by Disk Space Allocation |
+| Most Constrained by CPU Demand | Cluster Compute Resource |
+| Most Constrained by Memory Demand | Cluster Compute Resource |
+| Most Constrained by Disk Space Demand | Cluster Compute Resource |
+| Most Constrained by CPU Allocation | Cluster Compute Resource |
+| Most Constrained by Memory Allocation | Cluster Compute Resource |
+| Most Constrained by Disk Space Allocation | Cluster Compute Resource |
 
 ## Support
 
